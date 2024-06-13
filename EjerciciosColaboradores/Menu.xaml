@@ -21,11 +21,14 @@
                BackgroundColor="DarkGoldenrod"/>
 
 
-        <Button Text="Ver sueldo"
-                Clicked="Button_Clicked"/>
+        <Button Text="Ver tablas"
+                Clicked="Button_Clicked_3"
+                BackgroundColor="Aquamarine"/>
         
 
-        <Button Text="Ver tablas"
-                Clicked="Button_Clicked_1"/>
+        <Button Text="Ver sueldo"
+                Clicked="Button_Clicked_1"
+                BackgroundColor="DarkCyan"/>
+        
     </VerticalStackLayout>
 </ContentPage>

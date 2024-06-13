@@ -8,5 +8,9 @@
             Text="AQUI EMPIEZA LA ESME"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+
+        <Button Text="PRUEBA" 
+            Clicked="Button_Clicked" />
     </VerticalStackLayout>
 </ContentPage>

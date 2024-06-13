@@ -12,5 +12,13 @@
 
         <Button Text="PRUEBA" 
             Clicked="Button_Clicked" />
+
+
+        <Button Text="Ver sueldo"
+                Clicked="Button_Clicked"/>
+        
+
+        <Button Text="Ver tablas"
+                Clicked="Button_Clicked_1"/>
     </VerticalStackLayout>
 </ContentPage>

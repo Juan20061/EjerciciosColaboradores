@@ -8,7 +8,7 @@ namespace EjerciciosColaboradores
         {
             InitializeComponent();
 
-            MainPage = new Sueldo();
+            MainPage = new Menu();
         }
     }
 }

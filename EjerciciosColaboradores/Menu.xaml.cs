@@ -27,4 +27,14 @@ public partial class Menu : ContentPage
     {
         Navigation.PushAsync(new TablasMultiplicar());
     }
+
+    private void Button_Clicked_4(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Langosta());
+    }
+
+    private void Button_Clicked_5(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new NumerosPares());
+    }
 }

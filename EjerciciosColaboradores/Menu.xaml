@@ -2,33 +2,48 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EjerciciosColaboradores.Menu"
-             Title="Menu">
+             Title="MENÚ">
     <VerticalStackLayout>
          
         
         <Label 
-            Text="PROGRAMAS DE NET.MAUI"
+            Text="PROGRAMAS DE .NET MAUI"
+            Margin="5"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
 
-        <Button Text="Conversion" 
+        <Button Text="Conversion de Pesos"
+                Margin="5"
             Clicked="Button_Clicked"
-             BackgroundColor="Red"/>
+             BackgroundColor="LightGreen"/>
 
         <Button Text="Cuenta Regresiva" 
+                Margin="5"
                Clicked="Button_Clicked_2"
-               BackgroundColor="DarkGoldenrod"/>
+               BackgroundColor="LightBlue"/>
 
 
-        <Button Text="Ver tablas"
+        <Button Text="Tablas de Multiplicar"
+                Margin="5"
                 Clicked="Button_Clicked_3"
-                BackgroundColor="Aquamarine"/>
+                BackgroundColor="Coral"/>
         
 
-        <Button Text="Ver sueldo"
+        <Button Text="Sueldo Semanal"
+                Margin="5"
                 Clicked="Button_Clicked_1"
-                BackgroundColor="DarkCyan"/>
-        
+                BackgroundColor="LightSalmon"/>
+
+        <Button Text="Langosta Ahumada"
+                Margin="5"
+                Clicked="Button_Clicked_4"
+                BackgroundColor="Pink"/>
+
+        <Button Text="Números Pares"
+                Margin="5"
+                Clicked="Button_Clicked_5"
+                BackgroundColor="LightYellow"/>
+
     </VerticalStackLayout>
 </ContentPage>

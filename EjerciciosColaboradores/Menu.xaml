@@ -5,13 +5,14 @@
              Title="Menu">
     <VerticalStackLayout>
         <Label 
-            Text="AQUI EMPIEZA LA ESME"
+            Text="PROGRAMAS DE NET.MAUI"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
 
-        <Button Text="PRUEBA" 
-            Clicked="Button_Clicked" />
+        <Button Text="Conversion" 
+            Clicked="Button_Clicked"
+             BackgroundColor="Red"/>
 
 
         <Button Text="Ver sueldo"

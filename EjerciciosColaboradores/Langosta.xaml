@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjerciciosColaboradores.Langosta"
+             Title="Langosta">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label 
+             Text="LANGOSTA AHUMADA"
+             VerticalOptions="Center" 
+             HorizontalOptions="Center"
+             Margin="10"/>
+            <Image Source="lango.jpg"
+                WidthRequest="400"/>
+            <Entry
+             Margin="5"
+             x:Name="EntryP"
+             Placeholder="Digite la cantidad de platos"
+             Keyboard="Numeric"/>
+            <Button
+             Text="Calcular Total"
+             Clicked="Button_Clicked"
+             Margin="5"/>
+            <Entry
+             Margin="5"
+             x:Name="EntryT"
+             Placeholder="Total a pagar"
+             Keyboard="Numeric"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjerciciosColaboradores.NumerosPares"
+             Title="NumerosPares">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label 
+             Text="NÚMEROS PARES"
+             Margin="5"
+             VerticalOptions="Center" 
+             HorizontalOptions="Center" />
+            <Image
+             Source="num_pares.jpg"
+             WidthRequest="300"
+             HeightRequest="300"
+             Margin="5"/>
+            <Entry
+             x:Name="EntryN"
+             Margin="5"/>
+            <Button
+             Margin="5"
+             Clicked="CounterBtn_Clicked"
+             x:Name="CounterBtn"
+             SemanticProperties.Hint="Cuenta en pares los números"
+             Text="Contar"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

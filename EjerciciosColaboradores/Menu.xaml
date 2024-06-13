@@ -4,6 +4,8 @@
              x:Class="EjerciciosColaboradores.Menu"
              Title="Menu">
     <VerticalStackLayout>
+         
+        
         <Label 
             Text="PROGRAMAS DE NET.MAUI"
             VerticalOptions="Center" 
@@ -13,6 +15,10 @@
         <Button Text="Conversion" 
             Clicked="Button_Clicked"
              BackgroundColor="Red"/>
+
+        <Button Text="Cuenta Regresiva" 
+               Clicked="Button_Clicked_2"
+               BackgroundColor="DarkGoldenrod"/>
 
 
         <Button Text="Ver sueldo"
